@@ -15,9 +15,11 @@ Optionally you may remove the build directory after installation with:
 
 sudo rm -rf /opt/dreambuild
 
-Due to a bug pulseaudio support currently requires a workaround. For all installations run with:
+Due to a bug pulseaudio support currently requires a workaround. For all installations initially run with:
 
 dream -I default -O default
+
+Manage audio settings in pulseaudio with for example pavucontrol
 
 # Installing WSL for Windows 10
 # https://docs.microsoft.com/en-us/windows/wsl/install-win10
