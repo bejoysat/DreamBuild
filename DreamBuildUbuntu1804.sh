@@ -30,7 +30,8 @@ svn checkout svn://svn.code.sf.net/p/drm/code/ drm-code
 cd drm-code/branches/dream-rafa/
 qmake CONFIG+=alsa CONFIG+=sound
 make -j $(nproc)
-cp dream /usr/local/bin/dream
+make install
+ldconfig
 updatedb
 
 # set ownerships to user who called this script
