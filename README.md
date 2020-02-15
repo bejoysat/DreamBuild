@@ -5,6 +5,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * fdk-aac
 * dream xHE-AAC fork
 
+To run this script in a terminal run:
+
+chmod u+x DreamBuildUbuntu1804.sh
+
+sudo ./DreamBuildUbuntu1804.sh
+
+Optionally you may remove the build directory after installation with:
+
+sudo rm -rf /opt/dreambuild
+
 Due to a bug pulseaudio support currently requires a workaround. For all installations run with:
 
 dream -I default -O default
