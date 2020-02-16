@@ -26,8 +26,8 @@ updatedb
 
 # build dream
 cd /opt/dreambuild
-svn checkout svn://svn.code.sf.net/p/drm/code/ drm-code
-cd drm-code/branches/dream-rafa/
+svn checkout svn://svn.code.sf.net/p/drm/code/branches/dream-rafa/
+cd dream-rafa
 qmake CONFIG+=alsa CONFIG+=sound
 make -j $(nproc)
 make install
