@@ -15,8 +15,8 @@ apt-get upgrade -y
 
 # build fdk-aac
 cd /opt/dreambuild
-git clone https://git.code.sf.net/p/opencore-amr/fdk-aac opencore-amr-fdk-aact
-cd opencore-amr-fdk-aact/
+git clone https://github.com/rafael2k/fdk-aac
+cd fdk-aac
 ./autogen.sh
 ./configure --prefix=/usr --disable-static
 make -j $(nproc)
