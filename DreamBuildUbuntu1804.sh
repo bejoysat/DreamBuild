@@ -6,6 +6,12 @@
 #
 # Jayson Bucknell, AA7NM 2020
 
+if [ ! "`whoami`" = "root" ]
+then
+    echo "Please run this script as root using sudo! (sudo ./DreamBuildUbuntu1804.sh)"
+    exit 1
+fi
+
 mkdir -p /opt/dreambuild
 
 # update and install depedencies
