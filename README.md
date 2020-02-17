@@ -31,7 +31,7 @@ Manage audio settings in pulseaudio with for example pavucontrol
 
 # Enabling Sound
 # DO NOT edit Line 42 in step 3. Instead run Pulseaudio as Administrator for record permission.
-* Poor security work-around needs alternative *
+* Poor security work-around needs alternative
 
 # https://token2shell.com/howto/x410/enabling-sound-in-wsl-ubuntu-let-it-sing/
 
