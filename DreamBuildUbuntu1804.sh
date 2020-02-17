@@ -37,7 +37,13 @@ svn checkout svn://svn.code.sf.net/p/drm/code/branches/dream-rafa/
 cd dream-rafa
 qmake CONFIG+=alsa CONFIG+=sound
 make -j $(nproc)
+# backup dreams if any
+mv /usr/bin/dream /usr/bin/olddream_$(date +%d-%m-%Y)
+mv /usr/local/bin/dream /usr/local/bin/olddream_$(date +%d-%m-%Y)
+# install dream
 make install
+# it's over here
+ln -s /usr/bin/dream /usr/local/bin/dream
 ldconfig
 updatedb
 
