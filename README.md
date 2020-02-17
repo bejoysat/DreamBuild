@@ -21,6 +21,8 @@ dream -I default -O default
 
 Manage audio settings in pulseaudio with for example pavucontrol
 
+# Instructions for setting up in Windows Subsystem for Linux (WSL)
+
 # Installing WSL for Windows 10
 # https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
