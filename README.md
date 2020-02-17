@@ -28,7 +28,7 @@ Manage audio settings in pulseaudio with for example pavucontrol
 
 # Install Ubuntu 18.04 or your preference from the Microsoft Store
 
-# Enabling graphics howto
+# Enabling graphics
 # https://virtualizationreview.com/articles/2017/02/08/graphical-programs-on-windows-subsystem-on-linux.aspx
 
 # Enabling Sound
