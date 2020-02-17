@@ -38,8 +38,8 @@ cd dream-rafa
 qmake CONFIG+=alsa CONFIG+=sound
 make -j $(nproc)
 # remove bad dreams
-rm -rf /usr/bin/dream
-rm -rf /usr/local/bin/dream 
+rm /usr/bin/dream
+rm /usr/local/bin/dream 
 # install dream
 make install
 # it's over here
