@@ -31,7 +31,7 @@ Manage audio settings in pulseaudio with for example pavucontrol
 # Enabling graphics
 # https://virtualizationreview.com/articles/2017/02/08/graphical-programs-on-windows-subsystem-on-linux.aspx
 
-# Enabling Sound
+# Enabling sound
 # DO NOT edit Line 42 in step 3. Instead run Pulseaudio as Administrator for record permission.
 * Poor security work-around needs alternative
 
