@@ -37,5 +37,6 @@ Manage audio settings in pulseaudio with for example pavucontrol
 
 # https://token2shell.com/howto/x410/enabling-sound-in-wsl-ubuntu-let-it-sing/
 
-
+# Serial ports, real or virtual. Enter full device path in Dream's rig com port i.e. /dev/ttyS5
+# https://www.scivision.dev/usb-tty-windows-subsystem-for-linux/
 
