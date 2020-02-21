@@ -11,9 +11,7 @@ chmod u+x DreamBuildUbuntu1804.sh
 
 sudo ./DreamBuildUbuntu1804.sh
 
-Optionally you may remove the build directory after installation with:
-
-sudo rm -rf /opt/dreambuild
+Use DreamRemover.sh to uninstall, or alternatively you may use sudo rm -rf /opt/dreambuild if no uninstall or upgrade is required
 
 Due to a bug pulseaudio support currently requires a workaround. For all installations initially run with:
 
