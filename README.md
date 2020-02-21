@@ -40,3 +40,5 @@ Manage audio settings in pulseaudio with for example pavucontrol
 # Serial ports, real or virtual. Enter full device path in Dream's rig com port i.e. /dev/ttyS5
 # https://www.scivision.dev/usb-tty-windows-subsystem-for-linux/
 
+<img src="images/DreamWSL.jpg">
+
