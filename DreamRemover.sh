@@ -17,10 +17,8 @@ pushd /opt/dreambuild/dream-rafa
 make uninstall
 pushd /opt/dreambuild/fdk-aac
 make uninstall
-pushd ~/
+popd
+popd
 rm -rf /opt/dreambuild
-popd
-popd
-popd
 ldconfig
 updatedb
