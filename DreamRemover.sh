@@ -20,5 +20,7 @@ make uninstall
 popd
 popd
 rm -rf /opt/dreambuild
+rm /usr/bin/dream
+rm /usr/local/bin/dream
 ldconfig
 updatedb
