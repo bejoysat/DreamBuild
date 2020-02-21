@@ -8,7 +8,7 @@
 
 if [ ! "`whoami`" = "root" ]
 then
-    echo "Please run this script as root using sudo! (sudo ./DreamBuildUbuntu1804.sh)"
+    echo "Please run this script as root using sudo! (sudo ./DreamRemover.sh)"
     exit 1
 fi
 
