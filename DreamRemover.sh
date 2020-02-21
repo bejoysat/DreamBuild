@@ -13,14 +13,14 @@ then
 fi
 
 # uninstall previous fdk-aac and dream if any
-cd /opt/dreambuild/dream-rafa
+pushd /opt/dreambuild/dream-rafa
 make uninstall
-cd /opt/dreambuild/fdk-aac
+pushd /opt/dreambuild/fdk-aac
 make uninstall
-cd ~/
+pushd ~/
 rm -rf /opt/dreambuild
-rm /usr/bin/dream
-rm /usr/local/bin/dream
+popd
+popd
+popd
 ldconfig
 updatedb
-
