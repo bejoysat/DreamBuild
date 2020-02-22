@@ -16,7 +16,7 @@ mkdir -p /opt/dreambuild
 
 # update and install depedencies
 apt-get update 
-apt-get install -y autoconf g++ unzip make libtool git subversion qt5-default libqt5webkit5-dev libqt5svg5-dev libqwt-qt5-dev pulseaudio libpulse-dev libhamlib-dev fftw3-dev libpcap-dev libsndfile-dev libfaad-dev libfaac-dev libspeex-dev libspeexdsp-dev libasound2-dev
+apt-get install -y autoconf g++ unzip make mlocate libtool git subversion qt5-default libqt5webkit5-dev libqt5svg5-dev libqwt-qt5-dev pulseaudio libpulse-dev libhamlib-dev fftw3-dev libpcap-dev libsndfile-dev libfaad-dev libfaac-dev libspeex-dev libspeexdsp-dev libasound2-dev
 apt-get upgrade -y
 
 # build fdk-aac
